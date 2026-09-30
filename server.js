@@ -7,10 +7,10 @@
 
 const http = require('node:http');
 
-const config = require('./src/config');
-require('./src/db'); // opens the database and creates tables
-const files = require('./src/files');
-const { HttpError, Router, json, createSession, sendStatic } = require('./src/http');
+const config = require('./config');
+require('./db'); // opens the database and creates tables
+const files = require('./files');
+const { HttpError, Router, json, createSession, sendStatic } = require('./http');
 
 // ─── Startup checks ────────────────────────────────────────────────────
 
