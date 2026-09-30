@@ -1,0 +1,17 @@
+{
+  "name": "kishkish",
+  "version": "1.0.0",
+  "description": "ክሽክሽ: subscription video platform with manual receipt approval",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "set-password": "node --disable-warning=ExperimentalWarning scripts/set-password.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "license": "UNLICENSED"
+}
